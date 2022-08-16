@@ -13,7 +13,9 @@ Explanations of what each file does (somewhat in chronological order):
 Examples: 
 
 Tracks stationary time: 
+
 ![](https://github.com/HanyangSha/Object-Detection-Project/blob/master/stationary.gif)
 
 Tracks the crosswalk and pedestrians (there are also outputs for traffic light decisions on standard output, but are not shown):
+
 ![](https://github.com/HanyangSha/Object-Detection-Project/blob/master/pedestrians_crosswalks.gif)
