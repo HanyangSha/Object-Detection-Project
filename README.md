@@ -10,8 +10,10 @@ Explanations of what each file does (somewhat in chronological order):
 4. crosswalk_convexhull.py: incorporates (1) and (3) to determine if there are any people detected within crosswalk region. Prints to standard output a decision of whether traffic can resume. 
 5. pedestrian_crosswalk_final.py: optimizes crosswalk computation by only computing it for the first frame, and identifies vehicles as well. Basically a refined version and clearer version of (4). 
 
-Example of detection (one tracks the stationary time and the other tracks the crosswalk and pedestrians [outputs for traffic light decisions on standard output not shown]): 
+Examples: 
 
-https://user-images.githubusercontent.com/110644978/184735914-a041d4ea-c9ae-4220-a66c-e95872e58a3a.mp4
+Tracks stationary time: 
+![](https://github.com/HanyangSha/Object-Detection-Project/blob/master/stationary.gif)
 
-https://user-images.githubusercontent.com/110644978/184735935-1d13771d-b61f-4c63-a64e-11b90e68186c.mp4
+Tracks the crosswalk and pedestrians (there are also outputs for traffic light decisions on standard output, but are not shown):
+![](https://github.com/HanyangSha/Object-Detection-Project/blob/master/pedestrians_crosswalks.gif)
